@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Form</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body style="background-color: rgb(224, 224, 224);">
+  <h1>Practicing Form Creation with HTML5 and CSS3</h1>
+  <hr>
+  <form action="" method="POST">
+    <fieldset>
+      <legend>Personal data</legend>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your first name..."><br>
+      <label for="sname">Surname</label>
+      <input type="text" name="sname" id="sname" placeholder="Enter your surname..."><br>
+      <label for="social">Social Name</label>
+      <input type="text" name="social" id="social" placeholder="Enter your social name..."><br>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter your email...">
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend>Languages</legend>
+      <input type="checkbox" name="html" id="html"><label for="html">HTML5</label><br>
+      <input type="checkbox" name="css" id="css"><label for="css">CSS3</label><br>
+      <input type="checkbox" name="js" id="js"><label for="js">JavaScript</label><br>
+      <input type="checkbox" name="php" id="php"><label for="php">PHP</label><br>
+      <input type="checkbox" name="py" id="py"><label for="py">Python</label>
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend>Gender</legend>
+      <input type="radio" name="sexo" id="mas" checked> <label for="fem">Male</label><br>
+      <input type="radio" name="sexo" id="fem"> <label for="mas">Female</label><br>
+      <input type="radio" name="sexo" id="out"> <label for="out">Other</label><br>
+      <input type="radio" name="sexo" id="pnd"> <label for="pnd">Prefer not to say</label>
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend>Field of expertise</legend>
+      <select name="" id="">
+        <option value="" disabled selected>Select one of the options</option>
+        <option value="">Front-end</option>
+        <option value="">Back-end</option>
+        <option value="">Full stack</option>
+      </select>
+    </fieldset>
+    <hr>
+    Observations<br>
+    <textarea style="resize: none;" name="" id="" cols="45" rows="5" ></textarea><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+  <footer>
+    Developed by Gabriel Machado
+  </footer>
+  
+</body>
+</html>
